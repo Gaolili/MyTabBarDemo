@@ -1,8 +1,7 @@
 
-#学习Markdown
-1. markdown的介绍
-2. markdown的使用
-3. markdown的工具
+#MyTabBarDemo
+ 
+ 自己瞎写的，测试
 
 ****
  我要好好学习 ，努力挣大钱 
@@ -10,12 +9,4 @@
 ## 我最棒
   'hello world'
   
-   哈哈
-   
-An email <example@example.com> link.
-
- Simple inline link <http://baidu.com>
- <http://baidu.com>
  
- another link [benben](http://baidu.com)
-
