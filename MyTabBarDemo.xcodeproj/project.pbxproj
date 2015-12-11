@@ -24,6 +24,8 @@
 		2F0C184A1C1AA76300BF112A /* TwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C18451C1AA76300BF112A /* TwoTableViewController.m */; };
 		2F0C184D1C1AA85000BF112A /* TThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C184C1C1AA85000BF112A /* TThreeViewController.m */; };
 		2F0C18501C1AA9FD00BF112A /* BaseNavitgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C184F1C1AA9FD00BF112A /* BaseNavitgationViewController.m */; };
+		2F0C18531C1AC59000BF112A /* KKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C18521C1AC59000BF112A /* KKNavigationController.m */; };
+		2F0C18561C1AC85D00BF112A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C18551C1AC85D00BF112A /* BaseViewController.m */; };
 		2F2420311BF5868000D1D17A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2F241FF81BF5868000D1D17A /* .gitkeep */; };
 		2F2420321BF5868000D1D17A /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F241FF91BF5868000D1D17A /* ImageError.png */; };
 		2F2420331BF5868000D1D17A /* ImageError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F241FFA1BF5868000D1D17A /* ImageError@2x.png */; };
@@ -173,6 +175,10 @@
 		2F0C184C1C1AA85000BF112A /* TThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TThreeViewController.m; sourceTree = "<group>"; };
 		2F0C184E1C1AA9FD00BF112A /* BaseNavitgationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavitgationViewController.h; sourceTree = "<group>"; };
 		2F0C184F1C1AA9FD00BF112A /* BaseNavitgationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavitgationViewController.m; sourceTree = "<group>"; };
+		2F0C18511C1AC59000BF112A /* KKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKNavigationController.h; path = "../../../../KKNavigationController-master/KKNavigationController/KKNavigationController.h"; sourceTree = "<group>"; };
+		2F0C18521C1AC59000BF112A /* KKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKNavigationController.m; path = "../../../../KKNavigationController-master/KKNavigationController/KKNavigationController.m"; sourceTree = "<group>"; };
+		2F0C18541C1AC85D00BF112A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2F0C18551C1AC85D00BF112A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		2F241FF81BF5868000D1D17A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		2F241FF91BF5868000D1D17A /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
 		2F241FFA1BF5868000D1D17A /* ImageError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@2x.png"; sourceTree = "<group>"; };
@@ -371,6 +377,8 @@
 		2F0C18211C1AA60500BF112A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2F0C18511C1AC59000BF112A /* KKNavigationController.h */,
+				2F0C18521C1AC59000BF112A /* KKNavigationController.m */,
 				2F0C18381C1AA62A00BF112A /* BasePageViewController.h */,
 				2F0C18391C1AA62A00BF112A /* BasePageViewController.m */,
 				2F0C18221C1AA60500BF112A /* leadPageViewController.h */,
@@ -379,6 +387,8 @@
 				2F0C18251C1AA60500BF112A /* MainTarBarViewController.m */,
 				2F0C184E1C1AA9FD00BF112A /* BaseNavitgationViewController.h */,
 				2F0C184F1C1AA9FD00BF112A /* BaseNavitgationViewController.m */,
+				2F0C18541C1AC85D00BF112A /* BaseViewController.h */,
+				2F0C18551C1AC85D00BF112A /* BaseViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -1017,12 +1027,14 @@
 				2F0C183A1C1AA62A00BF112A /* BasePageViewController.m in Sources */,
 				2F2420561BF5868000D1D17A /* MWGridViewController.m in Sources */,
 				2F0C18311C1AA60500BF112A /* leadPageViewController.m in Sources */,
+				2F0C18531C1AC59000BF112A /* KKNavigationController.m in Sources */,
 				2F35E6281BF9B76500F63277 /* Person.m in Sources */,
 				2F24205C1BF5868000D1D17A /* UIImage+MWPhotoBrowser.m in Sources */,
 				2F24205B1BF5868000D1D17A /* MWZoomingScrollView.m in Sources */,
 				2F2420541BF5868000D1D17A /* MWCaptionView.m in Sources */,
 				2F2F640C1BE76A9C009C4FCA /* AnimationView.m in Sources */,
 				2F0C18361C1AA60500BF112A /* ThreeViewController.m in Sources */,
+				2F0C18561C1AC85D00BF112A /* BaseViewController.m in Sources */,
 				2F0C18471C1AA76300BF112A /* PushViewController.m in Sources */,
 				2F26CF5F1BFC7E1700601BFB /* RadarView.m in Sources */,
 				2F0C184D1C1AA85000BF112A /* TThreeViewController.m in Sources */,

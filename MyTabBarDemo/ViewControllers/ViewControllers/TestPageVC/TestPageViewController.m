@@ -33,8 +33,8 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc]init] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
-    [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
+//    [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc]init] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
+//    [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
 }
 
 -(void)pagerControllerSelectedIndex:(NSNotification *)notification

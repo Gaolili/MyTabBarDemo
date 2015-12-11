@@ -10,7 +10,7 @@
 #import "PushViewController.h"
 
 @interface PushViewController ()
-
+@property (nonatomic, strong)UIButton * backBtn;
 @end
 
 @implementation PushViewController
@@ -20,11 +20,26 @@
     // Do any additional setup after loading the view.
     self.title = @"pushVC";
     self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:self.backBtn];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(UIButton *)backBtn{
+    if (!_backBtn) {
+        _backBtn  = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_backBtn setImage:[UIImage imageNamed:@"back_1"] forState:UIControlStateNormal];
+        [_backBtn setImage:[UIImage imageNamed:@"back_2"] forState:UIControlStateHighlighted];
+        [_backBtn addTarget:self action:@selector(backBtnClickAction:) forControlEvents:UIControlEventTouchUpInside];
+        _backBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        _backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -25, 0, 0);
+        _backBtn.titleEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
+        _backBtn.frame = CGRectMake(0, 0, 44, 40);
+        
+    }
+    return _backBtn;
+}
+
+- (void)backBtnClickAction:(UIButton *)btn{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*

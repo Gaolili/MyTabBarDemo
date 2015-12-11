@@ -8,6 +8,7 @@
 
 #import "MainTarBarViewController.h"
 #import "BaseNavitgationViewController.h"
+#import "KKNavigationController.h"
 
 #import "OneViewController.h"
 #import "TwoViewController.h"
@@ -44,7 +45,7 @@
     vc.tabBarItem = [[UITabBarItem alloc]initWithTitle:title image:[UIImage imageNamed:imageName] selectedImage:imgSelect];
     vc.tabBarItem.title = title;
     vc.view.backgroundColor = [UIColor whiteColor];
-    BaseNavitgationViewController * nav = [[BaseNavitgationViewController alloc]initWithRootViewController:vc];
+    KKNavigationController * nav = [[KKNavigationController alloc]initWithRootViewController:vc];
     nav.navigationBar.translucent = NO;
     [self addChildViewController:nav];
 }
