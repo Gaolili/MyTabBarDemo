@@ -24,8 +24,7 @@
     
     self.photoButton.frame = CGRectMake(50, 100, 45, 30);
     [self.photoButton addTarget:self action:@selector(photoBUttonClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:self.photoButton];
-    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:self.photoButton];
  }
 
 

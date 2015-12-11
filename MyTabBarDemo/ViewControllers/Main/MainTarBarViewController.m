@@ -7,11 +7,13 @@
 //
 
 #import "MainTarBarViewController.h"
+#import "BaseNavitgationViewController.h"
 
 #import "OneViewController.h"
 #import "TwoViewController.h"
 #import "ThreeViewController.h"
 #import "FourViewController.h"
+#import "TestPageViewController.h"
 
 @interface MainTarBarViewController ()
 
@@ -27,7 +29,7 @@
 - (void)setUpAllChildViewController{
     
     [self tabbarAddChildViewController:[[OneViewController alloc]init] title:@"丽丽" imageName:@"recommendation_1" selectedImage:@"recommendation_2"];
-    [self tabbarAddChildViewController:[[TwoViewController alloc]init] title:@"笨笨" imageName:@"broadwood_1" selectedImage:@"broadwood_2"];
+    [self tabbarAddChildViewController:[[TestPageViewController alloc]init] title:@"笨笨" imageName:@"broadwood_1" selectedImage:@"broadwood_2"];
     [self tabbarAddChildViewController:[[ThreeViewController alloc]init] title:@"加油" imageName:@"classification_1" selectedImage:@"classification_2"];
     [self tabbarAddChildViewController:[[FourViewController alloc]init] title:@"最棒" imageName:@"my_1" selectedImage:@"my_2"];
     
@@ -42,7 +44,8 @@
     vc.tabBarItem = [[UITabBarItem alloc]initWithTitle:title image:[UIImage imageNamed:imageName] selectedImage:imgSelect];
     vc.tabBarItem.title = title;
     vc.view.backgroundColor = [UIColor whiteColor];
-    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    BaseNavitgationViewController * nav = [[BaseNavitgationViewController alloc]initWithRootViewController:vc];
+    nav.navigationBar.translucent = NO;
     [self addChildViewController:nav];
 }
 

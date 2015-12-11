@@ -7,7 +7,7 @@
 //
 
 #import "FourViewController.h"
-
+#import "TestPageViewController.h"
 #define Top_h 200
 #define KScreen_Width  CGRectGetWidth([UIScreen mainScreen].bounds)
 #define KScreen_Height CGRectGetHeight([UIScreen mainScreen].bounds)
@@ -35,6 +35,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    self.navigationController.navigationBar.translucent = YES;
     [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc]init] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
 }
