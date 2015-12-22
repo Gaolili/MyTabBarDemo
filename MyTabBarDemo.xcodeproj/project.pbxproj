@@ -26,6 +26,7 @@
 		2F0C18501C1AA9FD00BF112A /* BaseNavitgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C184F1C1AA9FD00BF112A /* BaseNavitgationViewController.m */; };
 		2F0C18531C1AC59000BF112A /* KKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C18521C1AC59000BF112A /* KKNavigationController.m */; };
 		2F0C18561C1AC85D00BF112A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C18551C1AC85D00BF112A /* BaseViewController.m */; };
+		2F1D6C3F1C29435C008A1347 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D6C3E1C29435C008A1347 /* CustomButton.m */; };
 		2F2420311BF5868000D1D17A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2F241FF81BF5868000D1D17A /* .gitkeep */; };
 		2F2420321BF5868000D1D17A /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F241FF91BF5868000D1D17A /* ImageError.png */; };
 		2F2420331BF5868000D1D17A /* ImageError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F241FFA1BF5868000D1D17A /* ImageError@2x.png */; };
@@ -179,6 +180,8 @@
 		2F0C18521C1AC59000BF112A /* KKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKNavigationController.m; path = "../../../../KKNavigationController-master/KKNavigationController/KKNavigationController.m"; sourceTree = "<group>"; };
 		2F0C18541C1AC85D00BF112A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		2F0C18551C1AC85D00BF112A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2F1D6C3D1C29435C008A1347 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		2F1D6C3E1C29435C008A1347 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 		2F241FF81BF5868000D1D17A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		2F241FF91BF5868000D1D17A /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
 		2F241FFA1BF5868000D1D17A /* ImageError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@2x.png"; sourceTree = "<group>"; };
@@ -364,6 +367,8 @@
 		2F01DE621BE344FE00DFBAB9 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				2F1D6C3D1C29435C008A1347 /* CustomButton.h */,
+				2F1D6C3E1C29435C008A1347 /* CustomButton.m */,
 				2F01DE691BE3452800DFBAB9 /* UIView+Extension.h */,
 				2F01DE6A1BE3452800DFBAB9 /* UIView+Extension.m */,
 				2F01DE651BE344FE00DFBAB9 /* ShareTool.h */,
@@ -1030,6 +1035,7 @@
 				2F0C18531C1AC59000BF112A /* KKNavigationController.m in Sources */,
 				2F35E6281BF9B76500F63277 /* Person.m in Sources */,
 				2F24205C1BF5868000D1D17A /* UIImage+MWPhotoBrowser.m in Sources */,
+				2F1D6C3F1C29435C008A1347 /* CustomButton.m in Sources */,
 				2F24205B1BF5868000D1D17A /* MWZoomingScrollView.m in Sources */,
 				2F2420541BF5868000D1D17A /* MWCaptionView.m in Sources */,
 				2F2F640C1BE76A9C009C4FCA /* AnimationView.m in Sources */,
