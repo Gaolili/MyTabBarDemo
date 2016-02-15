@@ -25,7 +25,7 @@
     [self.view addSubview:animationView];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushFiveVC) name:@"pushToFiveVC" object:nil];
-    
+    NSLog(@"测试上传sourcetree");
 }
 
 - (void)pushFiveVC{
